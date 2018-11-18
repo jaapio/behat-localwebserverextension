@@ -12,10 +12,10 @@ php:
 ## Build matrix for lowest and highest possible targets
 matrix:
   include:
-    - name: lowest dependencies
-      php: 7.0
-      env:
-      - dependencies=lowest
+#    - name: lowest dependencies
+#      php: 7.0
+#      env:
+#      - dependencies=lowest
 
     - name: 7.1 highest dependencies
       php: 7.1
